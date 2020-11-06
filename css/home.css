@@ -1,5 +1,9 @@
 /*  */
 
+body {
+    font-family: Lato;
+}
+
 .btn {
     border-radius: 0px !important;
 }
@@ -23,10 +27,10 @@ i {
     background-color: white;
     width: 100%;
 }
-.body{
+
+.body {
     transform: translateY(77px);
 }
-
 
 
 /* HEADER SECTION */
@@ -36,7 +40,6 @@ i {
 }
 
 .headerInfo p.welcomeTakyeef {
-    font-family: Lato;
     font-size: 15px;
     font-weight: normal;
     font-stretch: normal;
@@ -53,7 +56,6 @@ i {
 }
 
 .headerInfo .headerInfoPara p {
-    font-family: Lato;
     font-size: 15px;
     font-weight: normal;
     font-stretch: normal;
@@ -68,14 +70,15 @@ i {
     color: #e0e0e0;
 }
 
+
 /* Header_info ends here */
+
 
 /* -----Header Section Navbar */
 
 .headerNavbar span.contactNumber {
     width: 120px;
     height: 18px;
-    font-family: Lato;
     font-size: 15px;
     font-weight: bold;
     font-stretch: normal;
@@ -87,7 +90,6 @@ i {
 }
 
 .headerNavbar .nav-item .nav-link {
-    font-family: Lato !important;
     font-size: 13.5px !important;
     font-weight: bold !important;
     font-stretch: normal !important;
@@ -108,8 +110,8 @@ nav.headerNavbar .btnContact {
     color: #302c9a;
     width: 129px;
     height: 41px;
+    margin-left: 20px;
     border: solid 2px #2f2d98;
-    font-family: Lato !important;
     font-size: 13.5px !important;
     font-weight: bold !important;
     font-stretch: normal !important;
@@ -124,7 +126,9 @@ nav.headerNavbar .btnContact:hover {
     color: #fff;
 }
 
+
 /* ----Header section Navbar ends here */
+
 
 /* HOme Page section start here */
 
@@ -152,10 +156,10 @@ nav.headerNavbar .btnContact:hover {
     height: 100%;
     color: white;
     flex-direction: column;
+    background: rgba(0, 0, 0, 0.4);
 }
 
 .homePage .textBox p.textBoxWelcome {
-    font-family: Lato;
     font-size: 18px;
     font-weight: bold;
     font-stretch: normal;
@@ -170,7 +174,6 @@ nav.headerNavbar .btnContact:hover {
 
 .homePage .textBox h2 {
     text-shadow: 0 3px 6px rgba(0, 0, 0, 0.38);
-    font-family: Lato;
     font-size: 45px;
     font-weight: 900;
     font-stretch: normal;
@@ -182,7 +185,6 @@ nav.headerNavbar .btnContact:hover {
 
 .homePage .textBox .p-2 {
     text-shadow: 0 3px 6px rgba(0, 0, 0, 0.39);
-    font-family: Lato;
     font-size: 21px;
     font-weight: normal;
     font-stretch: normal;
@@ -197,7 +199,6 @@ nav.headerNavbar .btnContact:hover {
     background-color: #2d987f;
     width: 160px;
     height: 55px;
-    font-family: Lato;
     font-size: 12px;
     font-weight: 900;
     font-stretch: normal;
@@ -213,10 +214,10 @@ nav.headerNavbar .btnContact:hover {
     transition: 1s;
 }
 
+
 /* 2nd section */
 
 .textContent h3 {
-    font-family: Lato;
     font-size: 36px;
     font-weight: 900;
     font-stretch: normal;
@@ -236,7 +237,6 @@ nav.headerNavbar .btnContact:hover {
 }
 
 .textContent h6 {
-    font-family: Lato;
     font-size: 16px;
     font-weight: bold;
     font-stretch: normal;
@@ -248,7 +248,6 @@ nav.headerNavbar .btnContact:hover {
 }
 
 .textContent p {
-    font-family: Lato;
     font-size: 16px;
     font-weight: normal;
     font-stretch: normal;
@@ -263,7 +262,9 @@ nav.headerNavbar .btnContact:hover {
     width: 100%;
 }
 
+
 /* --2nd section */
+
 
 /* ourproject section */
 
@@ -272,7 +273,6 @@ nav.headerNavbar .btnContact:hover {
 }
 
 .ourProject h4 {
-    font-family: Lato;
     font-size: 26px;
     font-weight: bold;
     font-stretch: normal;
@@ -283,7 +283,6 @@ nav.headerNavbar .btnContact:hover {
 }
 
 .ourProject a.viewAll {
-    font-family: Lato;
     font-size: 16px;
     font-weight: bold;
     font-stretch: normal;
@@ -302,7 +301,6 @@ nav.headerNavbar .btnContact:hover {
 }
 
 .ourProject .card-body h6 {
-    font-family: Lato;
     font-size: 16px;
     font-weight: normal;
     font-stretch: normal;
@@ -325,7 +323,6 @@ nav.headerNavbar .btnContact:hover {
 }
 
 .sec-footer .para p {
-    font-family: Lato;
     font-size: 14px;
     font-weight: bold;
     font-stretch: normal;
@@ -389,7 +386,6 @@ nav.headerNavbar .btnContact:hover {
 }
 
 h5.aboutUs {
-    font-family: Lato;
     font-size: 16px;
     font-weight: bold;
     font-stretch: normal;
@@ -440,12 +436,13 @@ hr.secFooter2HR {
     margin-right: 690px !important;
 }
 
+
 /* footer end */
+
 
 /* Head_box and BreadCrumb Styles */
 
 .head_box h2 {
-    font-family: Lato;
     font-size: 36px;
     font-weight: 900;
     font-stretch: normal;
@@ -456,7 +453,6 @@ hr.secFooter2HR {
 }
 
 .bread_crumb a {
-    font-family: Lato;
     font-size: 13px;
     font-weight: bold;
     font-stretch: normal;
@@ -477,7 +473,6 @@ hr.secFooter2HR {
 }
 
 .bread_crumb h3 {
-    font-family: Lato;
     font-size: 26px;
     font-weight: bold;
     font-stretch: normal;
@@ -503,14 +498,6 @@ hr.secFooter2HR {
     background-color: #2f2d98;
 }
 
-.brochures {
-    font-family: Lato;
-}
-
-.brochures {
-    font-family: Lato;
-}
-
 .sidebar_active {
     color: #2f2d98 !important;
     font-weight: bold !important;
@@ -523,7 +510,6 @@ hr.secFooter2HR {
     border: none;
     text-align: left;
     margin: auto 0;
-    font-family: Lato;
 }
 
 .brochures button:hover {
@@ -555,7 +541,6 @@ hr.secFooter2HR {
     margin: 0.5px 0px;
     font-size: 13px;
     font-weight: 600;
-    font-family: Lato;
 }
 
 .sidebar a.active {
@@ -649,6 +634,10 @@ hr.secFooter2HR {
     .main_content {
         margin: 0px;
     }
+    nav.headerNavbar .btnContact {
+        margin-left: 0 !important;
+        margin-top: 10px;
+    }
 }
 
 @media (max-width: 700px) {
@@ -721,8 +710,7 @@ hr.secFooter2HR {
 }
 
 .certification_bg {
-    background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
-        url("../assets/images/Banner/banner--certifications.png");
+    background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url("../assets/images/Banner/banner--certifications.png");
 }
 
 .form_bg {
@@ -749,7 +737,6 @@ hr.secFooter2HR {
     letter-spacing: 3.6px;
     text-align: left;
     color: #2d2c32;
-    font-family: Lato;
     font-stretch: normal;
     font-style: normal;
 }
@@ -764,7 +751,6 @@ hr.secFooter2HR {
 }
 
 .get_in_touch .container .row p {
-    font-family: Lato;
     font-size: 16px;
     font-weight: bold;
     font-stretch: normal;
@@ -786,7 +772,6 @@ hr.secFooter2HR {
 }
 
 .form .container .row input::placeholder {
-    font-family: Lato;
     font-size: 12px;
     font-weight: bold;
     font-stretch: normal;
@@ -799,7 +784,6 @@ hr.secFooter2HR {
 }
 
 .form .container .row textarea::placeholder {
-    font-family: Lato;
     font-size: 12px;
     font-weight: bold;
     font-stretch: normal;
@@ -863,7 +847,6 @@ hr.secFooter2HR {
     letter-spacing: 1.95px;
     text-align: left;
     color: #ffffff;
-    font-family: Lato;
 }
 
 .address_box i {
@@ -874,7 +857,6 @@ hr.secFooter2HR {
 
 .address_box p {
     padding-left: 35px;
-    font-family: Lato;
     font-size: 16px;
     font-weight: normal;
     font-stretch: normal;
@@ -890,7 +872,6 @@ hr.secFooter2HR {
 }
 
 .become_a_vendor .vendor_deading h2 {
-    font-family: Lato;
     font-size: 36px;
     font-weight: 900;
     font-stretch: normal;
@@ -911,7 +892,6 @@ hr.secFooter2HR {
 }
 
 .become_a_vendor .vendor_deading p {
-    font-family: Lato;
     font-size: 16px;
     font-weight: bold;
     font-stretch: normal;
@@ -923,7 +903,6 @@ hr.secFooter2HR {
 }
 
 .become_a_vendor .vendor_deading span {
-    font-family: Lato;
     font-size: 16px;
     font-weight: bold;
     font-stretch: normal;
@@ -967,7 +946,6 @@ section {
 }
 
 .ceo_Message {
-    font-family: Lato;
     font-size: 30px;
     font-weight: normal;
     font-stretch: normal;
@@ -985,7 +963,6 @@ section {
 }
 
 .para_010 {
-    font-family: Lato;
     font-size: 16px;
     font-weight: normal;
     line-height: 1.56;
@@ -1006,7 +983,6 @@ section {
 }
 
 .para-011 {
-    font-family: Lato;
     font-size: 14px;
     font-weight: bold;
     letter-spacing: normal;
@@ -1015,7 +991,6 @@ section {
 }
 
 .integrity-Safety {
-    font-family: Lato;
     font-size: 16px;
     font-weight: bold;
     font-stretch: normal;
@@ -1027,7 +1002,6 @@ section {
 }
 
 .para-013 {
-    font-family: Lato;
     font-size: 16px;
     font-weight: normal;
     font-stretch: normal;
@@ -1039,7 +1013,6 @@ section {
 }
 
 .about_Button {
-    font-family: Lato;
     font-size: 14.5px;
     font-weight: bold;
     letter-spacing: 1.09px;
@@ -1059,13 +1032,7 @@ section {
     transition: 1s;
 }
 
-/* .arrow_wrapper img{
-  width: 100%;
-  height: 30%;
-} */
-
 .section_AboutU .OUR-HISTORY {
-    font-family: Lato;
     font-size: 26px;
     font-weight: bold;
     font-stretch: normal;
@@ -1084,7 +1051,6 @@ section {
 }
 
 .para_1 {
-    font-family: Lato;
     font-size: 16px;
     font-weight: normal;
     font-stretch: normal;
@@ -1116,7 +1082,6 @@ section {
 }
 
 .card {
-    font-family: Lato;
     font-size: 17px;
     font-weight: normal;
     font-stretch: normal;
@@ -1129,7 +1094,6 @@ section {
 }
 
 .year_1 {
-    font-family: Lato;
     font-size: 21px;
     font-weight: bold;
     font-stretch: normal;
@@ -1141,7 +1105,6 @@ section {
 }
 
 .para_2 {
-    font-family: Lato;
     font-size: 17px;
     font-weight: normal;
     font-stretch: normal;
@@ -1167,10 +1130,10 @@ section {
     align-content: center;
 }
 
+
 /* CAREERS STYLING */
 
 .MeanHead a {
-    font-family: Lato;
     font-size: 13px;
     font-weight: bold;
     font-stretch: normal;
@@ -1206,7 +1169,6 @@ section {
 }
 
 .ContantP p {
-    font-family: Lato;
     font-size: 16px;
     font-weight: normal;
     font-stretch: normal;
@@ -1217,7 +1179,6 @@ section {
 }
 
 .BodyContant h3 {
-    font-family: Lato;
     font-size: 26px;
     font-weight: bold;
     line-height: 1.38;
@@ -1226,7 +1187,6 @@ section {
 }
 
 .BodyP p {
-    font-family: Lato;
     font-size: 16px;
     font-weight: normal;
     font-stretch: normal;
@@ -1250,7 +1210,6 @@ section {
 }
 
 .BodyA a {
-    font-family: Lato;
     font-size: 16px;
     font-weight: normal;
     font-stretch: normal;
@@ -1262,8 +1221,6 @@ section {
 
 .BodyA a i {
     margin-right: 10px;
-    /* width: 17.2px;
-  height: 17.2px; */
     width: 15px;
     height: 15px;
 }
@@ -1286,7 +1243,6 @@ section {
 }
 
 .Contant h3 {
-    font-family: Lato;
     font-size: 26px;
     font-weight: bold;
     font-stretch: normal;
@@ -1315,7 +1271,6 @@ section {
 
 .ImgBoxHead .ImgBox h3 {
     margin-top: 25px;
-    font-family: Lato;
     font-size: 15px;
     font-weight: 900;
     font-stretch: normal;
@@ -1343,7 +1298,6 @@ section {
 }
 
 .Contant p {
-    font-family: Lato;
     font-size: 16px;
     font-weight: normal;
     font-stretch: normal;
@@ -1358,10 +1312,10 @@ section {
     text-decoration: none !important;
 }
 
+
 /* CERTIFICATES */
 
 .certificationContent a {
-    font-family: Lato;
     font-size: 13px;
     font-weight: bold;
     font-stretch: normal;
@@ -1382,7 +1336,6 @@ section {
 }
 
 .certificationContent h3 {
-    font-family: Lato;
     font-size: 26px;
     font-weight: bold;
     font-stretch: normal;
@@ -1393,7 +1346,6 @@ section {
 }
 
 p.bold {
-    font-family: Lato;
     font-size: 16px;
     font-weight: bold !important;
     font-stretch: normal;
@@ -1405,7 +1357,6 @@ p.bold {
 }
 
 .listCertification p {
-    font-family: Lato;
     font-size: 16px;
     font-weight: normal;
     font-stretch: normal;
@@ -1421,7 +1372,6 @@ p.bold {
 }
 
 .policySection h3 {
-    font-family: Lato;
     font-size: 26px;
     font-weight: bold;
     font-stretch: normal;
@@ -1432,7 +1382,6 @@ p.bold {
 }
 
 .policySection p {
-    font-family: Lato;
     font-size: 16px;
     font-weight: normal;
     font-stretch: normal;
@@ -1452,7 +1401,6 @@ p.bold {
     height: 52px;
     border: none;
     background-color: #2f2d98;
-    font-family: Lato;
     font-size: 14px;
     font-weight: bold;
     font-stretch: normal;
@@ -1489,25 +1437,31 @@ p.bold {
 
 .part1 .heading h4 {
     font-size: 26px;
-    font-family: Lato;
 }
 
 .heading p {
     font-size: 16px;
     line-height: 23px;
-    font-family: Lato;
 }
 
 .part2 .heading h4 {
     font-size: 15px;
-    font-family: Lato;
 }
 
 .part2 a {
-    font-family: Lato;
     color: #2f2d98;
     font-size: 14px;
 }
+
+
+/* products */
+
+.products_section img {
+    width: 100%;
+    height: auto;
+    margin: 0px;
+}
+
 
 /* @media */
 
@@ -1517,7 +1471,13 @@ p.bold {
         height: auto;
         margin: 0px;
     }
+    .products_section img {
+        width: 60%;
+        height: auto;
+        margin: 0px;
+    }
 }
+
 
 /* FORM STYLES */
 
@@ -1571,6 +1531,9 @@ p.bold {
     }
     .homePage {
         height: 400px;
+    }
+    .homePage {
+        height: 50vh !important;
     }
 }
 

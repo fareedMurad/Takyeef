@@ -8,6 +8,7 @@
     <!-- bootstrap link -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
     <!-- font -->
+    <link href='http://fonts.googleapis.com/css?family=Lato:100,200,400,600,700,900' rel='stylesheet' type='text/css'>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
     <!-- custom css -->
     <link rel="stylesheet" href="../css/service.css">
@@ -44,7 +45,7 @@
             </div>
         </div>
         <!-- welcome info-End -->
-        <div class="container-fluid" id="fixed_navbar"  >
+        <div class="container-fluid" id="fixed_navbar">
             <div class="container">
                 <nav class="navbar headerNavbar navbar-expand-lg navbar-light">
                     <a class="navbar-brand" href="#"><img src="../assets/images/Logo/logo.jpg" alt="logo"></a>
@@ -57,25 +58,25 @@
                     <div class="collapse navbar-collapse" id="navbarSupportedContent">
                         <ul class="navbar-nav ml-auto">
                             <li class="nav-item active">
-                                <a class="nav-link" href="#">HOME<span class="sr-only">(current)</span></a>
-                            </li>
-                            <li>
-
+                                <a class="nav-link" href="./Home.html">HOME<span class="sr-only">(current)</span></a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link" href="#">PROJECTS</a>
+                                <a class="nav-link" href="./Services.html">SERVICES</a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link" href="#">PRODUCTS</a>
+                                <a class="nav-link" href="./projects_commercial.html">PROJECTS</a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link" href="#">ABOUT US</a>
+                                <a class="nav-link" href="./products.html">PRODUCTS</a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link" href="#">CERTIFICATIONS</a>
+                                <a class="nav-link" href="./about.html">ABOUT US</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="./certification.html">CERTIFICATIONS</a>
                             </li>
                         </ul>
-                        <button class="btn btnContact my-2 my-sm-0">CONTACT</button>
+                        <a href="./form.html"><button class="btn btnContact my-2 my-sm-0"> CONTACT</button></a>
                     </div>
                 </nav>
             </div>
@@ -84,7 +85,7 @@
     </header>
     <!-- Header end here -->
 
-    <div class="body"  >
+    <div class="body">
         <!-- Certification Banner Section -->
         <section class="head_box services_bg">
             <div class="container d-flex align-items-center">
@@ -111,9 +112,9 @@
                             <div class="links p-2 pb-5">
                                 <a class="active" href="#">SERVICES
                                 <hr></a>
-                                <a href="#" class="sidebar_active">COMMERCIAL</a>
-                                <a href="#">MARINE, OIL & GAS</a>
-                                <a href="#">INDUSTRIAL</a>
+                                <a href="./Services.html" class="sidebar_active">COMMERCIAL</a>
+                                <a href="./services_oil.html">MARINE, OIL & GAS</a>
+                                <a href="./services_industrial.html">INDUSTRIAL</a>
                             </div>
                             <div class="brochures my-5 mx-2 p-0">
                                 <div class="text mx-3 my-4">
@@ -238,8 +239,34 @@
 
 
 
-        <!-- footer section starts form here -->
+        <!-- pagination starts here -->
+        <nav aria-label="Page navigation example">
+            <ul class="pagination justify-content-center mt-3">
+                <li class="page-item">
+                    <a class="page-link" href="./Home.html" tabindex="-1">Previous</a>
+                </li>
+                <li class="page-item"><a class="page-link" href="./Home.html">1</a></li>
+                <li class="page-item active"><a class="page-link" href="Services.html">2</a></li>
+                <li class="page-item"><a class="page-link" href="./services_oil.html">3</a></li>
+                <li class="page-item"><a class="page-link" href="./services_industrial.html">4</a></li>
+                <li class="page-item"><a class="page-link" href="./projects_commercial.html">5</a></li>
+                <li class="page-item"><a class="page-link" href="./projects_oil.html">6</a></li>
+                <li class="page-item"><a class="page-link" href="./products.html">7</a></li>
+                <li class="page-item"><a class="page-link" href="./about.html">8</a></li>
+                <li class="page-item"><a class="page-link" href="./certification.html">9</a></li>
+                <li class="page-item"><a class="page-link" href="./form.html">10</a></li>
+                <li class="page-item"><a class="page-link" href="./careers.html">11</a></li>
+                <li class="page-item"><a class="page-link" href="./privacy.html">12</a></li>
+                <li class="page-item"><a class="page-link" href="./terms.html">13</a></li>
+                <li class="page-item">
+                    <a class="page-link" href="./services_oil.html">Next</a>
+                </li>
+            </ul>
+        </nav>
 
+        <!-- pagination ends here -->
+
+        <!-- footer starts here -->
         <footer>
             <section class="sec-footer pt-3 pb-3">
                 <div class="container">
@@ -294,14 +321,14 @@
                             <hr class="secFooter2HR">
                             <div class="d-flex justify-content-between">
                                 <ul>
-                                    <li><a href="#">Home</a></li>
-                                    <li><a href="">Products</a></li>
-                                    <li><a href="#">About Takyeeff</a></li>
+                                    <li><a href="./Home.html">Home</a></li>
+                                    <li><a href="./products.html">Products</a></li>
+                                    <li><a href="./about.html">About Takyeeff</a></li>
                                 </ul>
                                 <ul>
-                                    <li><a href="#">Certificates & Labs</a></li>
-                                    <li><a href="">Careers</a></li>
-                                    <li><a href="#">Contact Us</a></li>
+                                    <li><a href="./certification.html">Certificates & Labs</a></li>
+                                    <li><a href="./careers.html">Careers</a></li>
+                                    <li><a href="./form.html">Contact Us</a></li>
                                 </ul>
                             </div>
                         </div>
@@ -312,6 +339,7 @@
                                 <li><a href="#">QHSE Policy</a></li>
                                 <li><a href="">Customer Code of Conduct</a></li>
                                 <li><a href="#">Sitemap</a></li>
+                                <li><a href="./privacy.html">Privacy and Terms</a></li>
                             </ul>
                         </div>
                     </div>
@@ -343,25 +371,25 @@
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js " integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN " crossorigin="anonymous "></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js " integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV " crossorigin="anonymous "></script>
 
-     <script>
-      let navbar = document.querySelector('#fixed_navbar');
-      let body = document.querySelector('.body');
-      window.onscroll = () => {
-        let cur = window.scrollY;
-        if (cur > 0) {
-          navbar.style.top = 0;
-          navbar.style.transition = '0.3s';
-          body.style.transform = 'translateY(77px)';
-        } else {
-          navbar.style.top = '55px';
-          navbar.style.transition = '0.5s';
-          body.style.transform = 'translateY(77px)';
-          if (window.innerWidth < 780) {
-            body.style.transform = 'translateY(90px)';
-            navbar.style.top = '90px';
-          }
-        }
-      };
+    <script>
+        let navbar = document.querySelector('#fixed_navbar');
+        let body = document.querySelector('.body');
+        window.onscroll = () => {
+            let cur = window.scrollY;
+            if (cur > 0) {
+                navbar.style.top = 0;
+                navbar.style.transition = '0.3s';
+                body.style.transform = 'translateY(77px)';
+            } else {
+                navbar.style.top = '55px';
+                navbar.style.transition = '0.5s';
+                body.style.transform = 'translateY(77px)';
+                if (window.innerWidth < 780) {
+                    body.style.transform = 'translateY(90px)';
+                    navbar.style.top = '90px';
+                }
+            }
+        };
     </script>
 
 
